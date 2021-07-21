@@ -1,0 +1,57 @@
+<!-- The followig comments are to explain the code 
+You cam remove that if you want to take it in production -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ---------- Linking CSS file ---------- -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Rock Paper Scissor | TECHISHANT</title>
+  </head>
+  <body>
+    <!-- ---------- Main Content ---------- -->
+
+    <!-- main div of file -->
+    <div class="wrapper">
+      <!-- main container containig the card -->
+      <div class="main">
+        <!-- top part of card (players Card) -->
+        <div id="container1" class="container">
+          <!-- buttons container -->
+          <div class="buttonbox">
+            <!-- buttons { Rock Paper Scissors } -->
+            <button id="playrock" onclick="inp('rock')">rock</button>
+            <button id="playPaper" onclick="inp('paper')">paper</button>
+            <button id="playScissor" onclick="inp('scissor')">scissor</button>
+          </div>
+          <!-- output box players (players output box) -->
+          <div id="inpuB">Player</div>
+        </div>
+        <!-- middle line of card -->
+        <div class="hr">
+          <!-- horizontal rule -->
+          <hr />
+          <!-- text between the line -->
+          <span id="result">VS</span>
+        </div>
+        <!-- bottom part of card (bot card) -->
+        <div id="container2" class="container">
+          <!-- output box (bot output box) -->
+          <div id="outp">Bot</div>
+          <!-- buttons container -->
+          <div class="buttonbox buttonbox2">
+            <!-- buttons { Rock Paper Scissors } -->
+            <div id="comprock">rock</div>
+            <div id="compPaper">paper</div>
+            <div id="compScissor">scissor</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- linking javascript file -->
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  *::selection {
+    background: rgba(114, 146, 51, 0.521);
+    color: white;
+  }
+  body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .wrapper {
+    height: 100vh;
+    width: 100%;
+    background: yellowgreen;
+    display: grid;
+    place-items: center;
+  }
+  .buttonbox {
+    height: 60px;
+    background: white;
+    display: flex;
+    padding: 10px;
+    width: 280px;
+    justify-content: space-evenly;
+    border-radius: 12px;
+    box-shadow: 0 1px 4px white, 0 2px 8px rgba(204, 204, 204, 0.486), 0 3px 12px rgba(204, 204, 204, 0.233);
+
+  }
+  .buttonbox button,
+  .buttonbox div{
+    display: grid;
+    place-items: center;
+    text-transform: uppercase;
+    border-radius: 7px;
+    border: 1px ridge #c7c7c7;
+    background: grey;
+    width: 100%;
+    color: white;
+    height: 100%;
+    margin: 0 4px;
+    cursor: pointer;
+    
+}
+  .container, .hr {
+      background: #ccc;
+      padding: 16px;
+      border-radius: 12px;
+    }
+    .container{
+      overflow: hidden;
+      transition: all 2s ease-in;
+  }
+
+  #inpuB,
+  #outp{
+    display: grid;
+    place-items: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 11px;
+    border: 2px ridge #8f8f8f;
+    margin: 18px auto;
+    font-size: 19px;
+    padding: 2px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: rgb(29, 29, 29);
+  }
+  #inpuB {
+    background: linear-gradient(57deg, chocolate, #f09b5e);
+  }
+  #outp {
+    background: linear-gradient(57deg, #66c7ff, #00a2ff);
+  }
+  .active {
+    background: yellowgreen !important;
+    color: rgb(73, 73, 73) !important;
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+  }
+
+  .buttonbox2 div {
+    cursor: auto !important;
+  }
+
+  .hr{
+      padding: 2px 16px;
+      border-radius: 0px;
+      position: relative;
+  }
+  .container:nth-child(1){
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+  }
+  .container:nth-child(3){
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+  }
+  .hr #result{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      background-color: inherit;
+      padding: 0 10px;
+      font-weight: 900;
+      color: #35354e;
+      transform: translate(-50%, -50%);
+  }
+  .main{
+      border-radius: 12px;
+      box-shadow: 0 5px 10px rgba(226, 225, 225, 0.192), 0 10px 20px rgba(66, 35, 35, 0.103), 0 12px 30px rgb(39, 39, 39);
+  }
