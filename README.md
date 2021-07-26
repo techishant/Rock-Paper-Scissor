@@ -1,8 +1,13 @@
-# Rock Paper Scissor  -(HTML,CSS And JS)
+
+# Rock Paper Scissor
+
 This is a simple Rock Paper Scissor game made in JS(JavaScript). You can easily play with computer in free time. It is a great practice and fun to make.
+## Demo is on Github-Pages
 
-### Waiting for more commits -
-- Scores
-- Rounds......
+The demo of the game is hosted on Pages.    
+Link: https://techishant.github.io/Rock-Paper-Scissor/
 
-Enjoy,
+  
+![Demo](https://techishant.github.io/Rock-Paper-Scissor/Pic.PNG)
+
+### Hope you liked that!!
