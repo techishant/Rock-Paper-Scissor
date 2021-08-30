@@ -7,7 +7,4 @@ This is a simple Rock Paper Scissor game made in JS(JavaScript). You can easily 
 The demo of the game is hosted on Pages.    
 Link: https://techishant.github.io/Rock-Paper-Scissor/
 
-  
-![Demo](https://techishant.github.io/Rock-Paper-Scissor/Pic.PNG)
-
 ### Hope you liked that!!
